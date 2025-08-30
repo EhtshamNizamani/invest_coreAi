@@ -21,7 +21,8 @@ class PersonalityResultScreen extends StatelessWidget {
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.w),
-            child: SingleChildScrollView(   // 👈 Added scroll to prevent overflow
+            child: SingleChildScrollView(
+              // 👈 Added scroll to prevent overflow
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -99,8 +100,7 @@ class PersonalityResultScreen extends StatelessWidget {
                             ),
                           ),
                           onPressed: () {
-  Get.to(() => const FirstTradeScreen());
-
+                            Get.to(() => FirstTradeScreen());
                           },
                           child: Text(
                             'Proceed',
