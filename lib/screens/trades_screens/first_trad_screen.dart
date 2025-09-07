@@ -320,10 +320,10 @@ class CopyTradesBottomSheet extends StatelessWidget {
           SizedBox(height: 24.h),
           // Trader List
           _buildTraderRow('Michael S.', 'assets/images/person.png', 'Copy'),
-          _buildTraderRow('Emily R.', 'assets/images/person.png', 'Copy'),
+          _buildTraderRow('Emily R.', 'assets/images/Emily.jpg', 'Copy'),
           _buildTraderRow(
             'William M.',
-            'assets/images/person.png',
+            'assets/images/William.jpeg',
             'Copy Trade',
           ),
           SizedBox(height: 32.h),
@@ -373,14 +373,10 @@ class CopyTradesBottomSheet extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 16.h),
         child: Row(
           children: [
-            Container(
-              width: 50,
-              height: 50,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(50),
+            CircleAvatar(
+                radius: 28.r,
+                backgroundImage: AssetImage(imagePath),
               ),
-              child: Image.asset(imagePath),
-            ),
             SizedBox(width: 16.w),
             Text(
               name,

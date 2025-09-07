@@ -51,7 +51,7 @@ class _TopTradersScreenState extends State<TopTradersScreen> {
                 ),
                 SizedBox(height: 16.h),
                 _buildTraderListItem(
-                  imagePath: 'assets/images/person.png', // Apne asset path se match karein
+                  imagePath: 'assets/images/Emily.jpg', // Apne asset path se match karein
                   name: 'Emily R.',
                   rightWidget: Text(
                     'Medium',

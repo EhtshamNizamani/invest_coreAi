@@ -39,8 +39,8 @@ class CopyTradingScreen extends StatelessWidget {
               child: ListView(
                 children: [
                   _buildTraderListItem('Michael S.', '+15,3%', 'assets/images/person.png'),
-                  _buildTraderListItem('Emily R.', '+13,5%', 'assets/images/person.png'),
-                  _buildTraderListItem('William M.', '+57,0%', 'assets/images/person.png'),
+                  _buildTraderListItem('Emily R.', '+13,5%', 'assets/images/Emily.jpg'),
+                  _buildTraderListItem('William M.', '+57,0%', 'assets/images/William.jpeg'),
                 ],
               ),
             ),
